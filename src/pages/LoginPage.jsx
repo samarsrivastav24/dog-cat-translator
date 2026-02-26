@@ -8,7 +8,7 @@ function LoginPage() {
   async function handleSendOtp(e) {
     e.preventDefault();
 
-    const res = await fetch("http://localhost:5000/send-otp", {
+    const res = await fetch("https://dog-cat-translator.onrender.com", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

@@ -14,7 +14,7 @@ function OtpPage() {
     }
 
     try {
-      const res = await fetch("http://localhost:5000/verify-otp", {
+      const res = await fetch("https://dog-cat-translator.onrender.com", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
